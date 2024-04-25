@@ -4,7 +4,6 @@
 SELECT * 
 FROM world_layoffs.layoffs_staging2;
 
--- EASIER QUERIES
 
 SELECT company,max(total_laid_off)
 FROM world_layoffs.layoffs_staging2
